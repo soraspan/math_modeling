@@ -1,15 +1,12 @@
-a = "Good"
-b = "Bad"
-print( a + b)
+a = 'Good'
+b = 'bad'
 
-#print( a - b) так нельзя
+print(a + b)
 
 print(a * 3)
 
 c = 50
+d = 10
+print(f'Вставим числа {c} и {d}')
 
-d = 10 
-
-print (f"вставим числа {c} и {d}")
-
-print (len(a))
+print(len(a))
