@@ -4,6 +4,6 @@ c = int(input('Введите количество членов прогресс
 
 print('Ваша прогрессия: ', end=' ')
 for i in range(c):
-  print((a * b**i), end=' ')
+  print(a * b**i, end=' ')
 
 print()
