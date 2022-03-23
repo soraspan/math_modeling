@@ -1,0 +1,13 @@
+G = 6.67 * 10**(-11)
+c = 3 * 10**8
+g = 9.8
+NA = 6.022 * 10**23
+R = 8.31
+k = 1.38 * 10**(-23)
+p_atm = 10**5
+h = 6.62 * 10**(-34)
+e = 2.71828
+ice_fusion_heat = 3.4 * 10**5
+ice_heat_capacity = 2100
+water_heat_capacity = 4200
+water_vaporization_heat = 2.3 * 10**6
