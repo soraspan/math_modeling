@@ -1,10 +1,11 @@
 import numpy as np
 
-a = 1
-b = 4
-N = 4
+def my_func(a, b, N):
+  Z = np.linspace(a, b, N)
+  fx = np.zeros((N, 2))
+  for i in range(len(Z)):
+    fx[i, 0] = Z[i]
+    fx[i, 1] = Z[i]**2+2
+  return fx
 
-Z = np.linspace(a, b, N)
-fx = np.zeros((N, 2))
-for i in Z:
-  
+print(my_func(1, 10, 20))
